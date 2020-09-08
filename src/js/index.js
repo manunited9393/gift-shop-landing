@@ -1,5 +1,6 @@
 import $ from "jquery";
 import 'slick-carousel';
+import acivateItem from './parts/about-active';
 
 window.addEventListener('DOMContentLoaded', () => {
 
@@ -24,4 +25,6 @@ window.addEventListener('DOMContentLoaded', () => {
             nextArrow: `<img src="icons/right-arrow.svg" class="arrow arrow_girl arrow__next"></img>`,
         });
       });
+
+      acivateItem();
 });
